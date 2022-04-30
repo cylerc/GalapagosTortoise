@@ -16,7 +16,7 @@ This repository contains data and code for our paper:
 
 Please cite this compendium as:
 
-> Cyler Conrad, Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. 2022. Compendium for Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction <> <!-- get DOI from osf.io -->
+> Cyler Conrad, Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. 2022. Compendium for Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction <https://osf.io/zmbv5/> <!-- get DOI from osf.io -->
 
 ## Contents
 
