@@ -1,0 +1,137 @@
+Sample ID,Taxon,Taxon (Original),Island Name,Captive,Value,Isotope
+32,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-2.8,d13Cap
+32,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,6,d18O
+32,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-13.4,d13Ccol
+32,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,10.6,d15N
+32,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-34,dD
+33,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-3.6,d13Cap
+33,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-3.7,d18O
+33,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-15.6,d13Ccol
+33,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,13.3,d15N
+33,Chelonoidis nigra,Geochelone nigra nigra,Floreana,Wild,-25.6,dD
+40,Chelonoidis nigra,Geochelone elephantopus,Floreana,Wild,-5.66,d13Cap
+40,Chelonoidis nigra,Geochelone elephantopus,Floreana,Wild,3.38,d18O
+40,Chelonoidis nigra,Geochelone elephantopus,Floreana,Wild,-16.6,d13Ccol
+40,Chelonoidis nigra,Geochelone elephantopus,Floreana,Wild,8.5,d15N
+40,Chelonoidis nigra,Geochelone elephantopus,Floreana,Wild,-48.4,dD
+52,Chelonoidis nigra,Chelonoidis nigra nigra,Floreana,Wild,-12.45,d13Cap
+52,Chelonoidis nigra,Chelonoidis nigra nigra,Floreana,Wild,-5.54,d18O
+52,Chelonoidis nigra,Chelonoidis nigra nigra,Floreana,Wild,-22.9,d13Ccol
+52,Chelonoidis nigra,Chelonoidis nigra nigra,Floreana,Wild,10.3,d15N
+52,Chelonoidis nigra,Chelonoidis nigra nigra,Floreana,Wild,-62.4,dD
+4,Chelonoidis vicina,Geochelone microphyes,Isabela,Wild,-11.27,d13Cap
+4,Chelonoidis vicina,Geochelone microphyes,Isabela,Wild,-6.79,d18O
+4,Chelonoidis vicina,Geochelone microphyes,Isabela,Wild,-21.1,d13Ccol
+4,Chelonoidis vicina,Geochelone microphyes,Isabela,Wild,14.7,d15N
+4,Chelonoidis vicina,Geochelone microphyes,Isabela,Wild,-38.6,dD
+24,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-6.05,d13Cap
+24,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-2.95,d18O
+24,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-18.1,d13Ccol
+24,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,7,d15N
+24,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-40.6,dD
+25,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-4.66,d13Cap
+25,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-4.15,d18O
+25,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-15.2,d13Ccol
+25,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,8.7,d15N
+25,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-36.9,dD
+26,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-4.73,d13Cap
+26,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-4.95,d18O
+26,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-14.2,d13Ccol
+26,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,5.4,d15N
+26,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-37.9,dD
+27,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-3.74,d13Cap
+27,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-1.14,d18O
+27,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-13.1,d13Ccol
+27,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,6.6,d15N
+27,Chelonoidis vicina,Geochelone guentheri,Isabela,Wild,-41.6,dD
+35,Chelonoidis nigra?,Geochelone nigra?,Isabela,Zoo,-12.4,d13Cap
+35,Chelonoidis nigra?,Geochelone nigra?,Isabela,Zoo,-10.1,d18O
+35,Chelonoidis nigra?,Geochelone nigra?,Isabela,Zoo,-22.3,d13Ccol
+35,Chelonoidis nigra?,Geochelone nigra?,Isabela,Zoo,11.9,d15N
+35,Chelonoidis nigra?,Geochelone nigra?,Isabela,Zoo,-58.1,dD
+36,Chelonoidis becki,Geochelone nigra becki,Isabela,Zoo,-12.3,d13Cap
+36,Chelonoidis becki,Geochelone nigra becki,Isabela,Zoo,-2.4,d18O
+36,Chelonoidis becki,Geochelone nigra becki,Isabela,Zoo,-23.1,d13Ccol
+36,Chelonoidis becki,Geochelone nigra becki,Isabela,Zoo,9.8,d15N
+36,Chelonoidis becki,Geochelone nigra becki,Isabela,Zoo,-59.4,dD
+39,Chelonoidis vicina,Geochelone elephantopus vicina,Isabela,Zoo,-8.12,d13Cap
+39,Chelonoidis vicina,Geochelone elephantopus vicina,Isabela,Zoo,-4.77,d18O
+39,Chelonoidis vicina,Geochelone elephantopus vicina,Isabela,Zoo,-19.6,d13Ccol
+39,Chelonoidis vicina,Geochelone elephantopus vicina,Isabela,Zoo,9.7,d15N
+39,Chelonoidis vicina,Geochelone elephantopus vicina,Isabela,Zoo,-49,dD
+21,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-7.4,d13Cap
+21,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,7.6,d18O
+21,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-18.1,d13Ccol
+21,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,10.2,d15N
+21,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-46,dD
+22,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-19.1,d13Ccol
+22,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,11.3,d15N
+22,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-37.1,dD
+23,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-22,d13Ccol
+23,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,10.6,d15N
+23,Chelonoidis duncanensis,Geochelone ephippium,Pinzón,Wild,-38.7,dD
+34,Chelonoidis duncanensis,Geochelone nigra ephippium,Pinzón,Zoo,-11.8,d13Cap
+34,Chelonoidis duncanensis,Geochelone nigra ephippium,Pinzón,Zoo,-5.6,d18O
+34,Chelonoidis duncanensis,Geochelone nigra ephippium,Pinzón,Zoo,-22,d13Ccol
+34,Chelonoidis duncanensis,Geochelone nigra ephippium,Pinzón,Zoo,11.4,d15N
+34,Chelonoidis duncanensis,Geochelone nigra ephippium,Pinzón,Zoo,-62.1,dD
+37,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-7.81,d13Cap
+37,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-6.81,d18O
+37,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-16.8,d13Ccol
+37,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,10.3,d15N
+37,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-49,dD
+38,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-8.67,d13Cap
+38,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-5.49,d18O
+38,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-18.8,d13Ccol
+38,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,9.6,d15N
+38,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-51.4,dD
+42,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-21.3,d13Ccol
+42,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,13,d15N
+42,Chelonoidis duncanensis,Geochelone elephantopus ephippium,Pinzón,Wild,-73.3,dD
+47,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-16.1,d13Ccol
+47,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,13.5,d15N
+47,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-52.9,dD
+48,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-18.9,d13Ccol
+48,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,15.8,d15N
+48,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-44.2,dD
+49,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-19.9,d13Ccol
+49,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,15.7,d15N
+49,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-52.8,dD
+50,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-18.6,d13Ccol
+50,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,10.9,d15N
+50,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-47.1,dD
+51,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-17.5,d13Ccol
+51,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,13.6,d15N
+51,Chelonoidis duncanensis,Chelonoidis nigra ephippium,Pinzón,Wild,-50.1,dD
+9,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-17,d13Ccol
+9,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,12.8,d15N
+9,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-37.8,dD
+10,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-17.6,d13Ccol
+10,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,12.3,d15N
+10,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-41.2,dD
+11,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-4.6,d13Cap
+11,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-2.1,d18O
+11,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-14.4,d13Ccol
+11,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,8.7,d15N
+11,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-40.4,dD
+12,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-14.2,d13Ccol
+12,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,12.6,d15N
+12,Chelonoidis porteri,Geochelone porteri,Santa Cruz,Wild,-37.9,dD
+43,Chelonoidis porteri,Geochelone elephantopus nigrita,Santa Cruz,Wild,-21.7,d13Ccol
+43,Chelonoidis porteri,Geochelone elephantopus nigrita,Santa Cruz,Wild,11.9,d15N
+43,Chelonoidis porteri,Geochelone elephantopus nigrita,Santa Cruz,Wild,-55.1,dD
+53,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,-14.1,d13Ccol
+53,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,12.3,d15N
+53,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,-48.6,dD
+54,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Zoo,-19,d13Ccol
+54,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Zoo,11.1,d15N
+54,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Zoo,-55.9,dD
+55,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Zoo,-16.7,d13Ccol
+55,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Zoo,11.8,d15N
+55,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Zoo,-50.9,dD
+56,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,-18.8,d13Ccol
+56,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,10.7,d15N
+56,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,-66.1,dD
+57,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,-16.5,d13Ccol
+57,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,7,d15N
+57,Chelonoidis porteri,Chelonoidis nigra porteri,Santa Cruz,Wild,-66.2,dD

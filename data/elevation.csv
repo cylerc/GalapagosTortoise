@@ -1,0 +1,51 @@
+Island,Isotope,Mean,Elevation
+Espanola,d13Ccol,-15.90,206.00
+Floreana,d13Ccol,-17.13,640.00
+Isabela-Wolf,d13Ccol,-21.10,1707.00
+Isabela-Azul,d13Ccol,-15.15,1640.00
+Pinta,d13Ccol,-15.26,777.00
+Pinzon,d13Ccol,-18.43,458.00
+Rabida,d13Ccol,-13.60,367.00
+San Cristobal,d13Ccol,-17.78,730.00
+Santa Cruz,d13Ccol,-17.17,864.00
+Santiago,d13Ccol,-17.05,907.00
+Espanola,d15N,15.97,206.00
+Floreana,d15N,10.68,640.00
+Isabela-Wolf,d15N,14.70,1707.00
+Isabela-Azul,d15N,6.93,1640.00
+Pinta,d15N,11.16,777.00
+Pinzon,d15N,12.23,458.00
+Rabida,d15N,12.10,367.00
+San Cristobal,d15N,9.90,730.00
+Santa Cruz,d15N,10.86,864.00
+Santiago,d15N,9.88,907.00
+Espanola,dD,-37.13,206.00
+Floreana,dD,-42.60,640.00
+Isabela-Wolf,dD,-38.60,1707.00
+Isabela-Azul,dD,-39.25,1640.00
+Pinta,dD,-38.40,777.00
+Pinzon,dD,-49.27,458.00
+Rabida,dD,-34.20,367.00
+San Cristobal,dD,-36.64,730.00
+Santa Cruz,dD,-49.24,864.00
+Santiago,dD,-39.10,907.00
+Espanola,d13Cap,,206.00
+Floreana,d13Cap,-6.13,640.00
+Isabela-Wolf,d13Cap,-11.27,1707.00
+Isabela-Azul,d13Cap,-4.80,1640.00
+Pinta,d13Cap,-4.40,777.00
+Pinzon,d13Cap,-7.96,458.00
+Rabida,d13Cap,-2.59,367.00
+San Cristobal,d13Cap,,730.00
+Santa Cruz,d13Cap,-4.60,864.00
+Santiago,d13Cap,,907.00
+Espanola,d18O,,206.00
+Floreana,d18O,0.04,640.00
+Isabela-Wolf,d18O,-6.79,1707.00
+Isabela-Azul,d18O,-3.30,1640.00
+Pinta,d18O,-2.26,777.00
+Pinzon,d18O,-1.57,458.00
+Rabida,d18O,-5.57,367.00
+San Cristobal,d18O,,730.00
+Santa Cruz,d18O,-2.10,864.00
+Santiago,d18O,,907.00

@@ -1,0 +1,60 @@
+Isotope,Tissue,Value,Specimen,Taxon,Note,Label
+d13C,Apatite,-4.6,CAS 8275,C. porteri,,
+d13C,Collagen,-14.4,CAS 8275,C. porteri,,
+d13C,Keratin,-16.1,CAS 8275,C. porteri,,
+d13C,Skin,-16.4,CAS 8275,C. porteri,,C.n. porteri CAS 8275
+d13C,Apatite,-7.4,CAS 8376,C. duncanensis,,
+d13C,Collagen,-18.1,CAS 8376,C. duncanensis,,
+d13C,Keratin,-18.4,CAS 8376,C. duncanensis,,
+d13C,Skin,-18.1,CAS 8376,C. duncanensis,,C.n. duncanensis CAS 8376
+d13C,Apatite,-6.05,CAS 8265,C. guentheri,,
+d13C,Collagen,-18.1,CAS 8265,C. guentheri,,
+d13C,Keratin,-13.4,CAS 8265,C. guentheri,,C.n. guentheri CAS 8265
+d13C,Apatite,-7.81,USNM15192,C. duncanensis,,
+d13C,Collagen,-16.8,USNM15192,C. duncanensis,,
+d13C,Keratin,-18.8,USNM15192,C. duncanensis,,C.n. duncanensis USNM15192
+d13C,Apatite,-8.67,USNM15193,C. duncanensis,,
+d13C,Collagen,-18.8,USNM15193,C. duncanensis,,
+d13C,Keratin,-24.1,USNM15193,C. duncanensis,,C.n. duncanensis USNM15193
+d13C,Collagen,-18.9,BMNH 1900.3.27.1,C. duncanensis,,
+d13C,Keratin,-20.1,BMNH 1900.3.27.1,C. duncanensis,,C.n. duncanensis NHMUK 1900.3.27.1
+d13C,Collagen,-19.9,BMNH 1949.1.3.72,C. duncanensis,,
+d13C,Keratin,-21.1,BMNH 1949.1.3.72,C. duncanensis,,C.n. duncanensis NHMUK 1949.1.3.72
+d13C,Collagen,-19,BMNH 1949.1.3.94,C. porteri,Zoo,
+d13C,Keratin,-19.7,BMNH 1949.1.3.94,C. porteri,Zoo,C.n. porteri NHMUK 1949.1.3.94
+d15N,Collagen,8.7,CAS 8275,C. porteri,,
+d15N,Keratin,11.9,CAS 8275,C. porteri,,
+d15N,Skin,11.9,CAS 8275,C. porteri,,C.n. porteri CAS 8275
+d15N,Collagen,10.2,CAS 8376,C. duncanensis,,
+d15N,Keratin,12.2,CAS 8376,C. duncanensis,,
+d15N,Skin,10.6,CAS 8376,C. duncanensis,,C.n. duncanensis CAS 8376
+d15N,Collagen,7,CAS 8265,C. guentheri,,
+d15N,Keratin,8.6,CAS 8265,C. guentheri,,C.n. guentheri CAS 8265
+d15N,Collagen,10.3,USNM15192,C. duncanensis,,
+d15N,Keratin,9.9,USNM15192,C. duncanensis,,C.n. duncanensis USNM15192
+d15N,Collagen,9.6,USNM15193,C. duncanensis,,
+d15N,Keratin,7.5,USNM15193,C. duncanensis,,C.n. duncanensis USNM15193
+d15N,Collagen,15.8,BMNH 1900.3.27.1,C. duncanensis,,
+d15N,Keratin,16.9,BMNH 1900.3.27.1,C. duncanensis,,C.n. duncanensis NHMUK 1900.3.27.1
+d15N,Collagen,15.7,BMNH 1949.1.3.72,C. duncanensis,,
+d15N,Keratin,12.8,BMNH 1949.1.3.72,C. duncanensis,,C.n. duncanensis NHMUK 1949.1.3.72
+d15N,Collagen,11.1,BMNH 1949.1.3.94,C. porteri,Zoo,
+d15N,Keratin,11.1,BMNH 1949.1.3.94,C. porteri,Zoo,C.n. porteri NHMUK 1949.1.3.94
+dD,Collagen,-40.4,CAS 8275,C. porteri,,
+dD,Keratin,-44.9,CAS 8275,C. porteri,,
+dD,Skin,-53.3,CAS 8275,C. porteri,,C.n. porteri CAS 8275
+dD,Collagen,-46,CAS 8376,C. duncanensis,,
+dD,Keratin,-60.3,CAS 8376,C. duncanensis,,
+dD,Skin,-33.7,CAS 8376,C. duncanensis,,C.n. duncanensis CAS 8376
+dD,Collagen,-40.6,CAS 8265,C. guentheri,,
+dD,Keratin,-53.2,CAS 8265,C. guentheri,,C.n. guentheri CAS 8265
+dD,Collagen,-49,USNM15192,C. duncanensis,,
+dD,Keratin,-60.6,USNM15192,C. duncanensis,,C.n. duncanensis USNM15192
+dD,Collagen,-51.4,USNM15193,C. duncanensis,,
+dD,Keratin,-67.8,USNM15193,C. duncanensis,,C.n. duncanensis USNM15193
+dD,Collagen,-44.2,BMNH 1900.3.27.1,C. duncanensis,,
+dD,Keratin,-53.9,BMNH 1900.3.27.1,C. duncanensis,,C.n. duncanensis NHMUK 1900.3.27.1
+dD,Collagen,-52.8,BMNH 1949.1.3.72,C. duncanensis,,
+dD,Keratin,-70,BMNH 1949.1.3.72,C. duncanensis,,C.n. duncanensis NHMUK 1949.1.3.72
+dD,Collagen,-55.9,BMNH 1949.1.3.94,C. porteri,Zoo,
+dD,Keratin,-69.3,BMNH 1949.1.3.94,C. porteri,Zoo,C.n. porteri NHMUK 1949.1.3.94
