@@ -3,14 +3,14 @@
 <!-- badges: start -->
 
 [![Launch Rstudio
-Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cylerc/14C_Antiquity/master?urlpath=rstudio)
-[![Actions Status](https://github.com/cylerc/14C_Antiquity/workflows/Render%20manuscript%20on%20Docker/badge.svg)](https://github.com/cylerc/14C_Antiquity/actions)
+Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cylerc/GalapagosTortoise/master?urlpath=rstudio)
+[![Actions Status](https://github.com/cylerc/GalapagosTortoise/workflows/Render%20manuscript%20on%20Docker/badge.svg)](https://github.com/cylerc/GalapagosTortoise/actions)
 
 <!-- badges: end -->
 
 This repository contains data and code for our paper:
 
-> Cyler Conrad [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4659-2884), Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. submitted. Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction. *Proceedings of the National Academy of Sciences*.
+> Cyler Conrad [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4659-2884), Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. submitted. Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction. *Proceedings of the Royal Society B*.
 
 ### How to cite
 
