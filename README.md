@@ -1,4 +1,4 @@
-# Supplementary materials for the paper 'Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction'
+# Supplementary materials for the paper 'Galápagos tortoise stable isotope ecology and the 1850s Floreana Island Chelonoidis niger niger extinction'
 
 <!-- badges: start -->
 
@@ -10,13 +10,13 @@ Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cylerc/Galapa
 
 This repository contains data and code for our paper:
 
-> Cyler Conrad [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4659-2884), Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. submitted. Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction. *Proceedings of the Royal Society B*.
+> Cyler Conrad [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4659-2884), Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. submitted. Galápagos tortoise stable isotope ecology and the 1850s Floreana Island Chelonoidis niger niger extinction. *Proceedings of the Royal Society B*.
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Cyler Conrad, Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. 2022. Compendium for Stable isotope ecology and the 1850s Floreana Island Galápagos tortoise (Chelonoidis niger niger) extinction <https://osf.io/zmbv5/> <!-- get DOI from osf.io -->
+> Cyler Conrad, Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. 2022. Compendium for Galápagos tortoise stable isotope ecology and the 1850s Floreana Island Chelonoidis niger niger extinction <https://osf.io/zmbv5/> <!-- get DOI from osf.io -->
 
 ## Contents
 
