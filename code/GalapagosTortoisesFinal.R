@@ -1,6 +1,6 @@
 #This .R file contains analyses associated with all metric, statistical, and visual
-  #actions for the manuscript titled: Stable isotope ecology and the 1850s Floreana 
-    #Island Galapagos tortoise (Chelonoidis niger niger) extinction
+  #actions for the manuscript titled: Galápagos tortoise stable isotope ecology 
+  #and the 1850s Floreana Island Chelonoidis niger niger extinction
 #We plan to finalize this .R file with full manuscript and author details prior to 
   #publication
 
