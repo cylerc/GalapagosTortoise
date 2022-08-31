@@ -10,7 +10,7 @@ Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cylerc/Galapa
 
 This repository contains data and code for our paper:
 
-> Cyler Conrad [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4659-2884), Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. submitted. Galápagos tortoise stable isotope ecology and the 1850s Floreana Island Chelonoidis niger niger extinction. *Oecologia*.
+> Cyler Conrad [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4659-2884), Laura Pagès Barceló, Lauren Scheinberg, Patrick D. Campbell, Addison Wynn, James P. Gibbs, Wacho Tapia Aguilera, Linda Cayot, Kale Bruner, Allen G. Pastron, and Emily Lena Jones. submitted. Galápagos tortoise stable isotope ecology and the 1850s Floreana Island Chelonoidis niger niger extinction. *Scientific Reports*.
 
 ### How to cite
 
