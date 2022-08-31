@@ -24,7 +24,6 @@ The main contents are:
 
   - [:file\_folder: code](/code): R Markdown source document & R script files for analysis.
   - [:file\_folder: data](/data): Data for the analysis.  
-  - [:file\_folder: figures](/figures): Visualizations from the analysis.
   - [:file\_folder: supplemental](/supplemental): Supplemental files which match the supplemental files submitted to PNAS.   
 
 ## How to run in your broswer or download and run locally
