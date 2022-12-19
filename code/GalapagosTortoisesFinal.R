@@ -4,6 +4,12 @@
 #We plan to finalize this .R file with full manuscript and author details prior to 
   #publication
 
+
+
+#https://community.rstudio.com/t/problem-with-ggpubr/16203/7
+
+
+
 #load libraries
 library(ggplot2)
 library(gridExtra)
@@ -13,38 +19,74 @@ library(RColorBrewer)
 library(dplyr)
 library(extrafont)
 library(ggpubr)
+library(ggarrange)
+#install.packages("spatstat")
+library(spatstat)
 library(siar)
+library(magrittr)
+library(tidyselect)
+library(tidyverse)
+library(scales)
+#install.packages("scales")
 
 #load data (set working directory to the "data" folder)
 master<-read.csv("MasterFinal.csv") #a file containing all stable isotope (SI) data
+master
 getOption("max.print")
 nonzoo<-master[c(1:33,37:38,40:53,56:57),] #separate data into wild tortoises
+nonzoo
 zoo<-master[c(34:36,39,54:55),] #separate data into captive (zoo) tortoises
+zoo
 ele<-read.csv("elevation.csv") #a file containing SI data tied to island elevation
+ele
 ccol<-ele[c(1:10),] #separate data into specific isotope systems (carbon-collagen)
+ccol
 nit<-ele[c(11:20),] #separate data into specific isotope systems (nitrogen)
+nit
 hy<-ele[c(21:30),] #separate data into specific isotope systems (hydrogen)
+hy
 cap<-ele[c(31:40),] #separate data into specific isotope systems (carbon-apatite)
+cap
 ox<-ele[c(41:50),] #separate data into specific isotope systems (oxygen)
+ox
 plants<-read.csv("plants.csv") #a file containing plant SI ratios per Island
+plants
 dis<-read.csv("MasterFinal_dis.csv") #a file containing SI ratios per tissue
+dis
 carb<-dis[c(1:23),] #separate data into specific isotope systems (carbon)
+carb
 nit<-dis[c(24:41),] #separate data into specific isotope systems (nitrogen)
+nit
 hyd<-dis[c(42:59),] #separate data into specific isotope systems (hydrogen)
+hyd
 sex_rev<-master[c(7:12,14,16,18,21:23,44:46,49:50),] #a file containing SI ratios per sex (collagen)
+sex_rev
 sex_rev2<-master[c(9:12,18,21:23,44:45,49:50,54),] #a file containing SI ratios per sex (apatite)
+sex_rev2
 rabida<-master[c(2,20),] #separate data into specific islands/taxa (Rabida)
+rabida
 micro<-master[c(4),]  #separate data into specific islands/taxa (Isabela-Darwin)
+micro
 guen<-master[c(24:27),]  #separate data into specific islands/taxa (Isabela-Sierra Negra)
+guen
 hood<-master[c(3,5:8,19),]  #separate data into specific islands/taxa (Espanola)
+hood
 porteri<-master[c(9:12,43,56:57),]  #separate data into specific islands/taxa (Santa Cruz)
+porteri
 chath<-master[c(13:14,16:17,46),]  #separate data into specific islands/taxa (San Cristobal)
+chath
 abing<-master[c(15,18,41,44:45),]  #separate data into specific islands/taxa (Pinta)
+abing
 darw<-master[c(28:31),]  #separate data into specific islands/taxa (Santiago)
+darw
 nig<-master[c(32:33,40,52),]  #separate data into specific islands/taxa (Floreana)
+nig
 dunc<-master[c(21:23,37:38,42,47:51,53),]  #separate data into specific islands/taxa (Pinzon)
+dunc
 isabela<-master[c(4,24:27),]  #separate data into specific islands/taxa (Isabela-All)
+isabela
 captive<-read.csv("zoo.csv") #a file containing SI ratios for captive (zoo) tortoises
+captive
 
 ##### Figure 2: Bar plots of single isotopes systems and summary metrics #####
 #carbon-collagen
@@ -134,7 +176,8 @@ d1<-ggplot(nonzoo, aes(x=reorder(Island.Name, dD.bone, FUN=median),
 d1
 
 #carbon-apatite
-nonzoo$Island.Name <- factor(nonzoo$Island.Name, levels=c( 
+nonzoo
+nonzooc2$Island.Name <- factor(nonzooc2$Island.Name, levels=c( 
                                                           "Pinzon", 
                                                           "Unk-Gold Rush",
                                                           "Isabela",
@@ -142,8 +185,15 @@ nonzoo$Island.Name <- factor(nonzoo$Island.Name, levels=c(
                                                           "Santa Cruz", 
                                                           "Pinta",
                                                           "Rabida"))
-c2<-ggplot(nonzoo %>% filter(!is.na(d13Cap)), aes(Island.Name, d13Cap, fill=Island.Name))+ 
-  geom_boxplot()+
+
+nonzooc2<-read.csv("MasterFinal_c2.csv")
+nonzooc2
+colourCount = length(unique(nonzooc2$Island.Name))
+getPalette = colorRampPalette(brewer.pal(7, "Oranges"))
+
+c2<-ggplot(nonzooc2, aes(x=reorder(Island.Name, d13Cap, FUN=median), 
+                       y=d13Cap))+  
+  geom_boxplot(fill=getPalette(colourCount))+
   geom_point()+
   xlab("")+
   ylab(expression(delta^{13}*"C"[apatite]))+
@@ -159,12 +209,11 @@ c2<-ggplot(nonzoo %>% filter(!is.na(d13Cap)), aes(Island.Name, d13Cap, fill=Isla
         axis.title.x = element_text(vjust=0.1, color="black", size=14, face="bold"),
         plot.title = element_text(hjust = 0.5),
         legend.position = "none",
-        strip.text = element_text(size = 15))+
-  scale_fill_brewer(palette="Oranges")
+        strip.text = element_text(size = 15))
 c2
 
 #oxygen
-nonzoo$Island.Name <- factor(nonzoo$Island.Name, levels=c(
+nonzooc2$Island.Name <- factor(nonzooc2$Island.Name, levels=c(
                                             "Rabida",
                                             "Pinzon",
                                             "Isabela",
@@ -172,8 +221,11 @@ nonzoo$Island.Name <- factor(nonzoo$Island.Name, levels=c(
                                             "Santa Cruz", 
                                             "Floreana",
                                             "Unk-Gold Rush"))
-o1<-ggplot(nonzoo %>% filter(!is.na(d18O)), aes(Island.Name, d18O, fill=Island.Name))+ 
-  geom_boxplot()+
+colourCount = length(unique(nonzooc2$Island.Name))
+getPalette = colorRampPalette(brewer.pal(7, "Blues"))
+o1<-ggplot(nonzooc2, aes(x=reorder(Island.Name, d18O, FUN=median), 
+                         y=d18O))+  
+  geom_boxplot(fill=getPalette(colourCount))+
   geom_point()+
   xlab("")+
   ylab(expression(delta^{18}*"O"))+
@@ -189,14 +241,16 @@ o1<-ggplot(nonzoo %>% filter(!is.na(d18O)), aes(Island.Name, d18O, fill=Island.N
         axis.title.x = element_text(vjust=0.1, color="black", size=14, face="bold"),
         plot.title = element_text(hjust = 0.5),
         legend.position = "none",
-        strip.text = element_text(size = 15))+
-  scale_fill_brewer(palette="Blues")
+        strip.text = element_text(size = 15))
 o1
 
 #save together as single plot
 ggarrange(c1, n1, d1, c2, o1, 
           ncol = 1, nrow = 5)
-  ggsave("BoxAll_FINAL.pdf", width = 12, height = 12, units = "in")
+  
+g<-grid.arrange(c1, n1, d1, c2, o1, 
+             ncol = 1, nrow = 5)
+ggsave("BoxAll_FINAL.pdf", width = 12, height = 12, units = "in", g)
 
 #Note for readers: When using ggarrange, the plots do not align on the y-axis.
   #We saved this image, opened it within Inkscape (open access software) and 
@@ -258,9 +312,14 @@ nitplot<-ggplot(nit, aes(x=Elevation, y=Mean))+
 nitplot
 
 #save Figure 3 (carbon and nitrogen plot)
-ggarrange(colplot, nitplot,
-          ncol = 2, nrow = 1)
-ggsave("EleCN_FINAL.tiff", width = 12, height = 6, units = "in")
+#ggarrange(colplot, nitplot,
+#          ncol = 2, nrow = 1)
+
+e<-grid.arrange(colplot, nitplot,
+                ncol = 2, nrow = 1)
+ggsave("EleCN_FINAL.tiff", width = 12, height = 6, units = "in", e)
+
+#ggsave("EleCN_FINAL.tiff", width = 12, height = 6, units = "in")
 
 #hydrogen
 ggplot(hy, aes(x=Elevation, y=Mean))+
@@ -629,8 +688,8 @@ ggplot(nonzoo, aes(dD.bone, d18O))+
         plot.title = element_text(hjust = 0.5, size=15))
 
 #save Figure 4 (all plots together)
-arrange<-grid.arrange(cn1, ch1, hn1, co1, ho1, ncolumn=3)
-ggsave("Allcomparisons.tiff", arrange, width = 8.5, height = 11, units = "in")
+arrange<-grid.arrange(cn1, ch1, hn1, co1, ho1, nrow=3)
+ggsave("Allcomparisons.tiff", width = 8.5, height = 11, units = "in", arrange)
 
 ##### Figure 5: Collagen-Apatite spacing and discrimination value#####
 p1<-ggplot(master, aes(d13Ccol,d13Cap))+
@@ -688,8 +747,8 @@ lm<-lm(master$d13Ccol~master$d13Cap)
 summary(lm)
 
 #save Figure 5
-g<-grid.arrange(p2, p1, nrow=1)
-ggsave("Col-Ap.tiff", width = 11.5, height = 6, units = "in")
+f<-grid.arrange(p2, p1, nrow=1)
+ggsave("Col-Ap.tiff", width = 11.5, height = 6, units = "in", f)
 
 #obtain discrimination value
 f<-(master$d13Ccol-master$d13Cap)
@@ -729,7 +788,8 @@ tef<-read.table('TEFData.txt',header=TRUE)
 data
 sources
 tef
-
+library(siar)
+library(spatstat)
 model1<-siarmcmcdirichletv4(data,sources,tef,concdep=0,500000,50000)
 siarplotdata(model1)     
 #when selecting proportions by source, SIAR allows you to enter "1" or "2" for "C3" or "C4" based on our dataset
@@ -950,8 +1010,8 @@ ncn<-ggplot(nig, aes(d13Ccol, d15N))+
                    segment.color = 'grey50') +
   ylim(5,20)+
   xlim(-25,-10)+
-  geom_vline(xintercept=-13.9, linetype = "dashed", colour="red")+
-  annotate("text", x =-14.75, y = 17, label = "310?80", size=4)+
+  geom_vline(xintercept=-14.2, linetype = "dashed", colour="red")+
+  annotate("text", x =-14.75, y = 17, label = "310±80", size=4)+
   theme_classic()+
   ggtitle("")+
   xlab(expression(delta^{13}*"C"[collagen]))+
